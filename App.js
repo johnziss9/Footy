@@ -53,7 +53,8 @@ const styles = StyleSheet.create({
     width: '60%',
     height: '50px',
     justifyContent: "center",
-    backgroundColor: '#843B62'
+    backgroundColor: '#843B62',
+    borderRadius: '10px'
   },
 
   text: {
@@ -90,6 +91,7 @@ const styles = StyleSheet.create({
     border: '1px solid #1A1D1A',
     height: '40px',
     justifyContent: "center",
+    borderRadius: '10px'
   },
 
   formButtonSubmit: {
@@ -97,7 +99,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#843B62',
     border: '1px solid #843B62',
     height: '40px',
-    justifyContent: "center"
+    justifyContent: "center",
+    borderRadius: '10px'
   },
 
   formButtonText: {
