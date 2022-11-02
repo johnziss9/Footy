@@ -1,16 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Pressable, Text, TextInput } from 'react-native';
 
-export default function Home() {
+export default function Attendance({ history }) {
 
     return (
         <>
-            <Text>YES OR NO</Text>
+            <Text>THIS IS THE LIST</Text>
             <StatusBar style="auto" />
         </>
     );
 }
 
 const styles = StyleSheet.create({
-
+   
 });

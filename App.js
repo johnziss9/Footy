@@ -1,5 +1,7 @@
-import { View, StyleSheet } from "react-native-web";
+import { View, StyleSheet } from "react-native";
 import { NativeRouter, Routes, Route } from "react-router-native";
+import Attendance from "./Pages/Attendance";
+import Login from "./Pages/Login";
 import Home from "./Pages/Home";
 
 export default function App() {
@@ -8,7 +10,9 @@ export default function App() {
     <NativeRouter>
       <View style={styles.container}>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Login />} />
+          <Route exact path="/Home" element={<Home />} />
+          <Route exact path="/Attendance" element={<Attendance />} />
         </Routes>
       </View>
     </NativeRouter>
